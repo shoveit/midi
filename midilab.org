@@ -1,4 +1,8 @@
+
 * os
+** low-latency kernel recompile
+https://docs.kali.org/development/recompiling-the-kali-linux-kernel
+** device & software
 list sound cards
 #+BEGIN_SRC sh :results output
 cat /proc/asound/cards
@@ -204,6 +208,8 @@ aseqdump -l
 | 14:0 | Midi    | Through  | Midi | Through | Port-0  |      |      |   |
 | 20:0 | Arturia | MiniLab  | mkII | Arturia | MiniLab | mkII | MIDI | 1 |
 
+* cmdline midi :midish
+big surprise. vintage project,last update was a few weeks ago.
 * algorithmic composition
 + https://quod.lib.umich.edu/s/spobooks/bbv9810.0001.001/--algorithmic-composition-a-gentle-introduction-to-music
 + https://ccrma.stanford.edu/software/clm/compmus/clm-tutorials/toc.html
@@ -213,4 +219,6 @@ aseqdump -l
 
 * references
 + https://alsa.opensrc.org/Amidi
-+ 
++ http://tedfelix.com/linux/linux-midi.html
++ http://www.midish.org/#download
++ https://lucidbeaming.com/blog/running-fluidsynth-on-a-raspberry-pi-zero-w/
